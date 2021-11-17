@@ -16,6 +16,12 @@ texto_2 = '7'
 # La comparación alfabética es aquella que se logra cuando
 # se utiliza el operador mayor o menor con Strings (textos)
 # Imprima en pantalla según corresponda
+if texto_1 > texto_2:
+    print('{} es mayor a {}'.format(texto_1, texto_2))
+elif texto_2 > texto_1:
+    print('{} es mayor a {}'.format(texto_2, texto_1))
+else:
+    print('Ambos son iguales.')
 
 # 2-Transforma esas variables tipo texto en variables numéricas con (int)
 # y almacénalas en nuevas variables.
@@ -23,6 +29,15 @@ texto_2 = '7'
 # utilizando los operadores correspondientes
 # ¿Cuál de las nuevas variables es mayor?
 # Imprima en pantalla según corresponda
+numero_1 = int(texto_1)
+numero_2 = int(texto_2)
+
+if numero_1 > numero_2:
+    print('El numero {} es MAYOR a {}'.format(numero_1, numero_2))
+elif numero_2 > numero_1:
+    print('El numero {} es MAYOR a {}'.format(numero_2, numero_1))
+else:
+    print('Ambos numeros son iguales.')
 
 # Para pensar!
 # ¿Por qué cree que texto_2 es mayor a texto_1?
@@ -32,3 +47,6 @@ texto_2 = '7'
 # Esta pregunta estará repetida en el Campus para que puedan
 # responder.
 # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+
+#RESPUESTA: Por el mismo motivo que analiza si una letra es mayor a otra
+#mediante su posicion en el alfabeto.
