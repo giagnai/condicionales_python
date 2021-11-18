@@ -30,3 +30,16 @@ contenido. Recomendamos pensar bien este problema de lógica con un lápiz y pap
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+temp_1 = float(input('Ingrese el primer valor de temperatura: '))
+temp_2 = float(input('Ingrese el segundo valor de temperatura: '))
+temp_3 = float(input('Ingrese el tercer valor de temperatura: '))
+
+if temp_1 > temp_2:
+    if temp_1 > temp_3:
+        print('La temperatura {} es la mayor.'.format(temp_1))
+
+elif temp_2 > temp_1:
+    if temp_2 > temp_3:
+        print('La temperatura {} es la mayor.'.format(temp_2))
+    else:
+        print('La temperatura {} es la mayor.'.format(temp_3))
